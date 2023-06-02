@@ -93,8 +93,7 @@ namespace BlazorApp.Api.Controllers
 
         }
 
-        [HttpGet]
-        [Route("{categoryId}/GetItemsByCategory")]
+        [HttpGet("{categoryId}/GetItemsByCategory")]
         public async Task<ActionResult<IEnumerable<ProductDto>>> GetItemsByCategory(int categoryId)
         {
             try

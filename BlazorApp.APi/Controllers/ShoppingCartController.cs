@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using ShopOnline.Api.Extensions;
-using ShopOnline.Api.Repositories.Contracts;
-using ShopOnline.Models.Dtos;
+using BlazorApp.Api.Extensions;
+using BlazorApp.Api.Repositories.Contracts;
+using BlazorApp.Models.Dtos;
 
-namespace ShopOnline.Api.Controllers
+namespace BlazorApp.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
